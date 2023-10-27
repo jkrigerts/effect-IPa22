@@ -5,12 +5,12 @@ function App() {
     userId: 1,
     id: 1,
     title: "delectus aut autem",
-    completed: false,
+    completed: true,
   };
   return (
     <div className="App">
       <h1>Hi</h1>
-      <ToDo />
+      <ToDo todo={todo} />
     </div>
   );
 }
