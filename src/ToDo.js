@@ -10,7 +10,7 @@ function ToDo(props) {
     <>
       <p>{props.title}</p>
       <p>userID: {props.userId}</p>
-      <p>toDoId: {props.id}</p>.
+      <p>toDoId: {props.id}</p>
       <input type="checkbox" checked={check} onChange={handleCheck} />
     </>
   );
