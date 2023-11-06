@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import ToDo from "./ToDo";
+import Post from "./Post";
+import PostList from "./PostList";
 
 function App() {
   const [todo, setTodo] = useState({});
@@ -29,6 +31,8 @@ function App() {
     <div className="App">
       <h1>Hi</h1>
       {loading ? <p>Lādējas...</p> : <ToDo {...todo} />}
+      <Post />
+      <PostList />
     </div>
   );
 }
